@@ -1,0 +1,178 @@
+* {
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+
+body {
+ padding:50px;
+}
+
+div.line1 {
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+div.line2 {
+    border: 1px solid green;
+    margin: 5px auto;
+    width: 20%;
+}
+
+marquee {
+    font-size: 30px;
+    font-family: cursive;
+    margin-top: 2px;
+    border-radius: 10px;
+    color: red;
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+
+
+}
+
+marquee:hover {
+    box-shadow: 0px 100px 50px rgba(142, 18, 231, 0.749) inset;
+    color: white;
+}
+
+abbr {
+    text-decoration: none;
+}
+
+b {
+    word-spacing: 20px;
+    letter-spacing: 10px;
+}
+
+.nav-bar a {
+    color: black;
+    padding: 10px;
+    transition: all 0.6s linear;
+
+}
+
+.nav-bar a:hover {
+    text-decoration: underline;
+    color: black;
+    padding: 10px;
+    text-decoration-color: red;
+    background-color: yellowgreen;
+
+}
+
+span.nav-bar {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.header {
+    text-align: center;
+    padding: 10px;
+
+}
+
+@media only screen and (max-width:750px) {
+
+    span.nav-bar {
+        display: block;
+        width: 50%;
+        transform: rotate(30deg);
+        margin: 10px;
+    }
+
+
+    .header {
+        text-align: center;
+    }
+}
+
+div.div1 {
+    border: 2px solid black;
+    margin: 1px;
+    display: inline;
+    writing-mode: vertical-lr;
+    cursor: pointer;
+}
+
+.info{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap-reverse;
+    justify-content:space-evenly;
+    align-items: center;
+    padding:50px;
+    text-align: center;
+    background-color:lightcyan;
+}
+.info:hover{
+    opacity: 0.9;
+}
+img.images{
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    padding:50px;
+    transition: all 0.8s linear;
+}
+img.images:hover{
+    padding:10px;
+
+
+}
+.myself{
+    height:400px;
+    width:400px;
+    margin:3px;
+    padding:20px;
+
+}
+p{
+    font-size: 60px;
+    font-weight: bold;
+    color:blue;
+    animation-name: name;
+    animation-duration:3s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+@keyframes name{
+   50%{
+    font-size: 70px;
+    color:green;
+   }
+   100%{
+    font-size: 80px;
+    color:red;
+   }
+}
+#div1{
+    border-right: 1px solid black;
+}
+#about{
+    text-align: center;
+}
+.skill{
+display: inline-block;
+border-right:1px solid black;
+margin:5px;
+width:350px;
+height:350px;
+padding: 20px;
+}
+strong{
+    color:red;
+    text-align: center;
+    transition: all 0.8s linear;
+  
+}
+strong:hover{
+    display: inline-block;
+    transform:rotate(10deg);
+    color: green;
+   
+}
